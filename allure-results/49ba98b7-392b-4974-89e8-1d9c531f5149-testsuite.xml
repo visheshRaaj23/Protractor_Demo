@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622622629295' stop='1622622629739'>
+    <name>Calculator app test with data-provider</name>
+    <title>Calculator app test with data-provider</title>
+    <test-cases>
+        <test-case start='1622622629295' status='failed' stop='1622622629515'>
+            <name>Add 2 numbers</name>
+            <title>Add 2 numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: browser.actions(...).moveToElement is not a function</message>
+                <stack-trace>TypeError: browser.actions(...).moveToElement is not a function
+                    at UserContext.&lt;anonymous> (C:\Users\Vishesh and Varsha\Desktop\Trainings\JavaScript Lex\AngularJS Test\demos\calculator.js:10:40)
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622622629516' status='failed' stop='1622622629551'>
+            <name>Add 2 numbers</name>
+            <title>Add 2 numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: browser.actions(...).moveToElement is not a function</message>
+                <stack-trace>TypeError: browser.actions(...).moveToElement is not a function
+                    at UserContext.&lt;anonymous> (C:\Users\Vishesh and Varsha\Desktop\Trainings\JavaScript Lex\AngularJS Test\demos\calculator.js:10:40)
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622622629552' status='failed' stop='1622622629583'>
+            <name>Add 2 numbers</name>
+            <title>Add 2 numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: browser.actions(...).moveToElement is not a function</message>
+                <stack-trace>TypeError: browser.actions(...).moveToElement is not a function
+                    at UserContext.&lt;anonymous> (C:\Users\Vishesh and Varsha\Desktop\Trainings\JavaScript Lex\AngularJS Test\demos\calculator.js:10:40)
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622622629583' status='failed' stop='1622622629732'>
+            <name>Add 2 numbers</name>
+            <title>Add 2 numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: browser.actions(...).moveToElement is not a function</message>
+                <stack-trace>TypeError: browser.actions(...).moveToElement is not a function
+                    at UserContext.&lt;anonymous> (C:\Users\Vishesh and Varsha\Desktop\Trainings\JavaScript Lex\AngularJS Test\demos\calculator.js:10:40)
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
+                    at C:\Users\Vishesh and Varsha\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,37 @@
+describe("Pack & Go Application",() =>{
+    it("--Login Functionality",async function(){
+        await element(by.linkText('Login')).click();
+        await element(by.linkText('userNameLogin')).sendKeys('pgGuru');
+        await element(by.id('Login')).click();
+    });
+
+    it("--Ticket Booking",function(){
+        browser.navigate().refresh();
+        element(by.cssContainingtext("option","Bangalore")).click();
+        element(by.cssContainingtext("option","Mumbai")).click();
+        element(by.buttonText('Search Buses')).click();
+        element(by.id("radio2")).click();
+        let bookingButton = element(by.id("book"));
+        bookingButton.isEnabled().not.then((data)=>{
+            if(data==true){
+                bookingButton.click();
+            }
+        });
+        let noOfTickets = element(by.css("[type='number']"));
+        noOfTickets.clear();
+        noOfTickets.sendKeys("2");
+        element(by.css("[value='Calculate Total Bill']")).click();
+
+        element.all(by.xpath('//table[@id='tableBooking']')).each(function(rows){
+            rows.all(by.tagName('td')).each(function(cols){
+                cols.getText().then((text)=>{
+                    console.log(text);
+                });
+            });
+        });
+
+    takeScreenshot();
+
+
+    });
+});

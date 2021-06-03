@@ -1,0 +1,156 @@
+Handling alerts and Popups
+
+alert_handle = browser.switchTo().alert();
+
+alert_handle.accept();
+
+alert_handle.dismiss();
+
+
+alert_handle.getText().then((text) =>{
+    console.log("Alert Message:"+text);
+});
+
+alert_handle.sendKeys("Vishesh");
+
+Handling the IFrames in angular
+
+browser.switchTo().frame(0);
+
+element(by.className("cf1")).getText().then(function(text){
+    console.log("Genres heading:"text);
+});
+
+var innerFrame=element(by.id("f3")).getWebElement();
+
+browser.switchTo().frame(innerFrame);
+
+element(by.cssContainingtext("ul li","Thriller")).getText().then((text) =>{
+    console.log("Inner Frame Text:"text);
+});
+
+browser.switchTo().defaultContent();
+
+browser.switchTo().frame(null);
+
+var parentWindow(GUI ID) = browser.getWindowHandle();  -->Returns the GUI ID in the form of numerical string
+
+browser.getAllWindowHandles();
+
+browser.switchTo().window(GUI-ID);
+
+Mouse Actions:
+browser.actions().mouseDown(element1).mouseMove(element2).mouseUp().perform();
+
+browser.actions().dragAndDrop(element1,element2).perform();
+
+browser.actions().mouseMove(element).mouseMove({x:50,y:0}).doubleClick().perform();
+
+Keyboard Interactions:
+
+'goog:chromeOptions':{
+    w3c:false
+}
+
+sendKeys,keyUp,keyDown
+
+//Enter Username "pgGru"
+
+element(by.xpath("//*[id='navBar']/ul/li[4]/a")).click();
+
+browser.actions().click(element(by.id("username"))).sendKeys("pg")
+.keyDown(protractor.key.SHIFT).sendKeys("g").keyUp(protractor.key.SHIFT).sendKeys("ru").perform();
+
+element(by.id("userNameLogin")).sendKeys("pg",protractor.key.SHIFT,"g",protractor.key.NULL,"ru");
+
+element(by.id("userNameLogin")).sendKeys("pg",protractor.key.chord(protractor.key.SHIFT,"g"),"ru");
+
+
+describe("Keyboard Options"function(){
+    it("Multi Select",function(){
+            browser.actions().sendKeys(protractor.Key.CONTROL).click(element(by.cssContainingtext("ol > li","A christmus carol")))
+            .click(element(by.cssContainingtext("ol >li","Oliver Twist")))
+            .click(element(by.cssContainingtext("ol > li","The Pickwick Papers")));
+            .perform();
+            element(by.xpath("//*[@id='quiz_section']")).click();
+
+            element(by.id("submit_message")).getText().then((text) =>{
+                console.log(text);
+            });
+
+
+    });
+});
+
+
+//Pack and Go Application
+
+describe("Key board Actions",function(){
+    it("Verify Tab Order",function(){
+        element(by.xpath("//*[@id='myNavBar']/ul/li[3]/a")).click();
+
+        var userName=element(by.id("userNameSignup"));
+        var emailID = element(by.id("emailSignup"));
+        var password = element(by.id("passwordSignup"));
+
+        var elements = new Array(userName,password,emailID);
+
+        userName.click();
+
+
+        for(var i=0;i<elements.length;i++){
+            browser.sleep(3000);
+
+           element[i].getWebElement().getId().then((text) =>{
+               console.log(text);
+           });
+
+           browser.actions().sendKeys(protractor.Key.TAB).perform();
+
+           browser.sleep(3000);
+
+           browser.switchTo().activeElement().getId().then((text) =>{
+               console.log(text);
+           });
+           element[i+1].getWebElement().getId().then((text) =>{
+               expect(text).toBe(element.switchTo().activeElement().getId());
+           })
+
+        }
+    }) ;        
+});
+
+Javascript Executor
+
+browser.executeScript(script,var_args);
+
+browser.executeAsyncFunction(script,var_args).then(function(){
+    
+});
+
+//Jasmine Dataprovider
+npm install jasmine-data-provider --save-dev 
+
+
+//pageObjects
+HomePO.js 
+PhoneGalleryPO.js 
+TutorialPO.js
+
+
+//testScenarios
+HomePageSpec.js
+PhoneGalleryPageSpec.js
+TutorialsPageSpec.js
+
+
+One way Binding and Two way Binding
+Test the one-way Binding
+enter the input in the text field
+validate if the input reflects in the text segment
+
+Two Way Binding
+Enter a task to be added to the to-do list
+click on the add button
+Validate if the task is added to the Todo list
+

@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622623459375' stop='1622623459380'>
+    <name>Javascript  executor</name>
+    <title>Javascript  executor</title>
+    <test-cases>
+        <test-case start='1622623459376' status='pending' stop='1622623459376'>
+            <name>scroll into view and click</name>
+            <title>scroll into view and click</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622623459376' status='pending' stop='1622623459379'>
+            <name>Get Text from the navigation bar</name>
+            <title>Get Text from the navigation bar</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622623459379' status='pending' stop='1622623459380'>
+            <name>Async Execution demo</name>
+            <title>Async Execution demo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622623459380' status='pending' stop='1622623459380'>
+            <name>Google Auto-Suggestion</name>
+            <title>Google Auto-Suggestion</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

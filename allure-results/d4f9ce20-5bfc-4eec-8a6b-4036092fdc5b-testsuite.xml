@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622626070450' stop='1622626070530'>
+    <name>Angular JS application Test</name>
+    <title>Angular JS application Test</title>
+    <test-cases>
+        <test-case start='1622626070450' status='pending' stop='1622626070464'>
+            <name>-->One Way Binding</name>
+            <title>-->One Way Binding</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622626070464' status='pending' stop='1622626070465'>
+            <name>-->Two Way Binding</name>
+            <title>-->Two Way Binding</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

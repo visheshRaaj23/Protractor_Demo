@@ -1,0 +1,28 @@
+{
+  "name":"scriptmanagement",
+  "version":"1.0.1",
+  "description": "This project demonstrates the usage of package.json",
+    "dependencies": {
+      "allure-commandline": "^2.13.8",
+      "jasmine": "^2.8.0",
+      "jasmine-allure-reporter": "^1.0.2",
+      "jasmine-data-provider": "^2.2.0",
+      "jasmine-spec-reporter": "^7.0.0",
+      "protractor": "^7.0.0"
+    },
+    "main":"",
+    "scripts": {
+      
+      "Update":".\\node_modules\\.bin\\webdriver-manager update",
+      "test": "protractor config.js",
+      "posttest":"allure serve",
+      "start":"npm run Update && npm run test"
+     },
+     "author":"Vishesh M Udupa",
+     "license":"MIT",
+     "devDependencies": {
+       "allure-commandline":"^2.13.8"
+     }
+
+}
+
